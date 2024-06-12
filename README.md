@@ -1,22 +1,38 @@
 # Prompty
+#### Makes it easy to create, manage, debug, and evaluate LLM prompts for your AI applications.
 
 Prompty is an asset class and format for LLM prompts designed to enhance observability, understandability, and portability for developers. The primary goal is to accelerate the developer inner loop.
 
-This repo contains the following:
+---
+
+### This repo contains the following:
 
 - [Prompty Language Specification](Prompty.yaml)
 - [Documentation](https://github.com/microsoft/prompty/tree/main/web) site (visit [prompty.ai](https://prompty.ai) for the live site)
-- (More on the way)
+- (+More things on the way)
 
-This Visual Studio Code extension offers an intuitive prompt playground within VS Code to streamline the prompt engineering process. You can find the Pormpty extension in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty).
+<small>This Visual Studio Code extension offers an intuitive prompt playground within VS Code to streamline the prompt engineering process. You can find the Pormpty extension in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty).
+</small>
+<br>
 
-## What is Prompty?
+### Table of Contents
+
+1. [What is Prompty?](#what-is-prompty)
+2. [VSCode Extension Features](#vscode-extension-features)
+3. [Feedback](#feedback)
+4. [Documentation](#documentation)
+
+<br>
+
+## 🤔 What is Prompty?
 ### Specification
 Prompty standardizes prompts and their execution into a single asset.
 
 ![Language Spec](img/vscode/readme_lang_spec.png)
 
-## VSCode Extension Features
+<br>
+
+## 🧩 VSCode Extension Features
 ### Quickly Create
 Quickly create a basic prompty by right-clicking in the VS Code explorer and selecting "New Prompty."
 
@@ -65,8 +81,12 @@ Right-click on a `.prompty` file to quickly generate integration snippets.
 
 ![Orchestrator Integration](img/vscode/image-9.png)
 
-## Feedback
+<br>
+
+## 💬 Feedback
 Submit your feedback about Prompty or the VS Code extension to the [Microsoft/prompty](https://github.com/microsoft/prompty/issues) GitHub repository.
 
-## Documentation
-* https://prompty.ai
+<br>
+
+## 📝 Documentation
+For more detailed information and guides, visit our [documentation](https://microsoft.github.io/prompty/). *(Note this is a work in progress)*
