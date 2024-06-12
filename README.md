@@ -1,12 +1,12 @@
 # Prompty
-#### Makes it easy to create, manage, debug, and evaluate LLM prompts for your AI applications.
+>Prompty makes it easy to create, manage, debug, and evaluate LLM prompts for your AI applications.
 
 Prompty is an asset class and format for LLM prompts designed to enhance observability, understandability, and portability for developers. The primary goal is to accelerate the developer inner loop.
 
 ---
+<br>
 
-### This repo contains the following:
-
+**This repo contains the following:**
 - [Prompty Language Specification](Prompty.yaml)
 - [Documentation](https://github.com/microsoft/prompty/tree/main/web) site (visit [prompty.ai](https://prompty.ai) for the live site)
 - (+More things on the way)
