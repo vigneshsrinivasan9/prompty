@@ -13,16 +13,9 @@ Prompty is an asset class and format for LLM prompts designed to enhance observa
 
 <small>This Visual Studio Code extension offers an intuitive prompt playground within VS Code to streamline the prompt engineering process. You can find the Pormpty extension in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty).
 </small>
-<br>
-
-### Table of Contents
-
-1. [What is Prompty?](#what-is-prompty)
-2. [VSCode Extension Features](#vscode-extension-features)
-3. [Feedback](#feedback)
-4. [Documentation](#documentation)
 
 <br>
+
 
 ## 🤔 What is Prompty?
 ### Specification
