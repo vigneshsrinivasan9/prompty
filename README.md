@@ -1,21 +1,18 @@
 # Prompty
->Prompty makes it easy to create, manage, debug, and evaluate LLM prompts for your AI applications.
+> Prompty makes it easy to create, manage, debug, and evaluate LLM prompts for your AI applications.
 
 Prompty is an asset class and format for LLM prompts designed to enhance observability, understandability, and portability for developers. The primary goal is to accelerate the developer inner loop.
 
 ---
-<br>
 
 **This repo contains the following:**
 - [Prompty Language Specification](Prompty.yaml)
 - [Documentation](https://github.com/microsoft/prompty/tree/main/web) site (visit [prompty.ai](https://prompty.ai) for the live site)
-- (+More things on the way)
+- More features coming soon
 
-<small>This Visual Studio Code extension offers an intuitive prompt playground within VS Code to streamline the prompt engineering process. You can find the Pormpty extension in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty).
-</small>
+<small>This Visual Studio Code extension offers an intuitive prompt playground within VS Code to streamline the prompt engineering process. You can find the Prompty extension in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty).</small>
 
 <br>
-
 
 ## 🤔 What is Prompty?
 ### Specification
@@ -43,16 +40,16 @@ Preview prompty similar to markdown with dynamic template rendering while typing
   ![Define Configuration](img/vscode/image-5.png)
 
   ![Switch Model Configuration](img/vscode/switchModelConfiguration.png)
-* Use VS Code settings to define model configuration at:
+* Use VS Code settings to define model configurations at:
   * User level for use across different prompty files.
   * Workspace level to share with team members via Git.
 
     ![ModelConfigurationSettings](img/vscode/modelConfigurationSettings.png)
 
-* We strongly encourage using Azure Active Directory authentication for enhanced security. Leave the `api_key` empty to trigger AAD auth.
-* OpenAI is also supported. You can store the key in VSCode settings or use `${env:xxx}` to read the API key from an environment variable.
-  * You can put environment variables in `.env` file, in the same folder of the prompty file, or in the workspace root folder.
-  * Alternatively, you can also specify it in system variables, follow [OpenAI's Guide](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety) for key safety, setting it through Control Panel/zsh/bash, and then restart VS Code to load new values.
+* We strongly encourage using Azure Active Directory authentication for enhanced security. Leave the `api_key` empty to trigger AAD authentication.
+* OpenAI is also supported. You can store the key in VS Code settings or use `${env:xxx}` to read the API key from an environment variable.
+  * You can put environment variables in a `.env` file in the same folder as the prompty file or in the workspace root folder.
+  * Alternatively, you can also specify it in system variables. Follow [OpenAI's Guide](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety) for key safety, set it through Control Panel/zsh/bash, and then restart VS Code to load the new values.
 
 ### Quick Run
 Hit **F5** or click the **Run** button at the top. There are two output windows:
@@ -82,4 +79,4 @@ Submit your feedback about Prompty or the VS Code extension to the [Microsoft/pr
 <br>
 
 ## 📝 Documentation
-For more detailed information and guides, visit our [documentation](https://microsoft.github.io/prompty/). *(Note this is a work in progress)*
+For more detailed information and guides, visit our [documentation](https://microsoft.github.io/prompty/). *(Note: This is a work in progress)*
